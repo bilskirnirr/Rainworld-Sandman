@@ -1,0 +1,40 @@
+{
+	"id": "Sandman",
+	"name": "The Sandman",
+	"description": "A Sleep Inducing Slugcat that needs to place tracers on lizards.",
+	"features": {
+		
+		// Slug Cat Appearance
+		"color": "5993a6",
+		"custom_colors": [
+      { "name": "Body", "story": "5993a6" },
+      { "name": "Eyes", "story": "A66C59" }		],
+
+		// Slug Cat Stats
+		"auto_grab_batflies": false,
+		"walk_speed": 1.2, // As hunter 
+		"throw_skill": 0, // As Monk .6 to .9
+		"loudness": 0.9, //little quieter
+		"diet": { // Vegetarian Diet
+			"base": "White",
+			"corpses": 0,
+			"plants": 1,
+			"meat": 0
+			}, // Vegetarian Diet
+		"food_min": 5, // medium difficult since can only eat Veg
+		"food_max": 7, // medium difficult since can only eat Veg
+		"back_spear": false,
+		"can_maul": false,
+		"the_mark": true,
+		"guide_overseer": 4, // Gives a guide, will figure out what to do with TBA
+
+		//Scenes
+		"select_menu_scene": "Slugcat_Sandman",
+		"select_menu_scene_ascended": "Ghost_Sandman",
+		"sleep_scene": "Sleep_Sandman"
+
+		// Start Info
+		"start_room": "CC_A10"
+
+	}
+}
